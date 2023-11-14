@@ -1,0 +1,5 @@
+f1 = rectangle(400, 100, "solid", "orange")
+f2 = rectangle(30, 10, "solid", "black")
+f3 = circle(5, "solid", "red")
+f4 = overlay-xy(f2, -140, -50, f1)
+overlay-xy(f3, -240, -50, f4)
